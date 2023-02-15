@@ -1,0 +1,88 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgba(127, 109, 150, 0.81);
+
+}
+li{
+    float: left;
+}
+    li,a{
+        padding: 10px;
+        color: paleturquoise;
+        margin: 15px;
+    }
+    li a:hover{
+        background: rgba(47, 52, 67, 0.5);
+
+    }
+    th,td{
+        border: 2px dotted rgba(255, 102, 0, 0.86);
+        padding: 10px;
+        margin: 10px;
+        font-family: FreeMono;
+    }
+    table{
+border-collapse: separate;
+        width: 100%;
+        height: 100%;
+    }
+    .fruits{
+        border: 2px solid red;
+        background-color: blue;
+        color: white;
+        text-align:center;
+        padding: 20px;
+        margin: 20px;
+    }
+    .cars{
+        border: 3px solid blue;
+        background-color: red;
+        color:black;
+        text-align:center;
+        padding: 20px;
+        margin: 20px;
+    }
+    .FRUITS{
+        border: 2px solid indigo;
+        background-color: plum;
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+    }
+    #school{
+        border: 2px dotted chartreuse;
+        background-color: gold;
+    }
+label{
+    border: 20px;
+    text-align: center;
+    margin: 10px;
+    font-size:larger;
+    flex-direction: column-reverse;
+   flex-shrink: inherit;background-color: lightgreen;
+}
+input{
+   text-align:justify;
+    border: 20px;
+   font-size: large;
+    background-color: rgba(255, 253, 241, 0.86);
+
+}
+textarea{
+    width: 90%;height: 50%;
+}
+input{
+    text-decoration-style: dotted;
+    max-height: 50%;
+}
+label{
+    color: blueviolet;
+}
+
+
+
+
+
